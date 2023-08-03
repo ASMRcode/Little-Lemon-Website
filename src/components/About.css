@@ -1,0 +1,54 @@
+/* About.css */
+.about-container {
+    display: flex;
+    align-items: center;
+    margin: 50px 25px;
+  }
+  
+  .about-content {
+    flex: 1;
+    padding-right: 20px;
+  }
+  
+  .about-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    
+  }
+  
+  .about-location {
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 20px;
+  }
+  
+  .about-paragraph {
+    font-size: 16px;
+    line-height: 1.6;
+    max-width: 55%;
+  }
+  
+  .about-photos {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    position: relative; /* Add relative positioning to the photos container */
+  }
+  
+  .about-photos img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  
+  .photo1 {
+    margin-top: 110px;
+    max-height: 225px;
+    z-index: 1;
+  }
+  
+  .photo2 {
+    margin-left: -113px;
+    max-height: 225px;
+    z-index: 2;
+}
